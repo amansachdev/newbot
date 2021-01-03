@@ -91,9 +91,6 @@ function start(client){
         if(command === '!menu' || command === '#menu'){
             client.sendText(from,menu)
         }
-        if(command === '!hdchat' || command === '#hdchat'){
-            client.sendText(from,"*Join HotDeals Chat (Deals Chat Group).*\nhttps://bit.ly/2MtOfUv")
-        }
         if(command === '!flirt'){
             var possible =  flirts.phrases[Math.floor(Math.random()*flirts.phrases.length)];
 
